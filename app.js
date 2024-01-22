@@ -10,7 +10,7 @@ const mangoQuery = {
   }
 };
 
-// Perform the Mango query with authentication
+
 request.post({
   url: `${couchDBUrl}/${dbName}/_find`,
   json: mangoQuery,
